@@ -3,9 +3,9 @@ import 'dart:developer';
 findlargest(){
   List n=[12,45,7,89,23];
   int largest=n[0];
-  for(int number in n){
-    if(number>largest){
-      largest=number;
+  for(int i=0;i<n.length;i++){
+    if(n[i]>largest){
+      largest=n[i];
     }
   }
   return largest;
